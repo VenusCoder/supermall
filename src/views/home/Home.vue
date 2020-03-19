@@ -117,7 +117,7 @@ export default {
       this.listenerBackTop(position)
       // 判断tabcontrol是否吸顶
       
-      this.isTabFixed = (-position.y) >= this.tabOffsetTop-48
+      this.isTabFixed = (-position.y) >= this.tabOffsetTop
       
     },
 
